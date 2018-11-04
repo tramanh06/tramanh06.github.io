@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Tram Anh Nguyen"
-  avatar           : "linkedin_portrait.png"
+  avatar           : "profile.png"
   bio              : "NLP/ML Research Engineer at Singapore Management University"
   location         : "Singapore"
   employer         :
@@ -99,14 +99,14 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/nguyentramanh/"
+  linkedin         : "nguyentramanh"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
