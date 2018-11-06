@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Assistant working on NLP applications under Prof. Jing Jiang. 
-Previously during my undergraduate studies, I did research with Prof. Ng Wee Keong on intersections of 
+I'm a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/). 
+Previously during my undergraduate studies, I did research with Prof. [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
 Security, Cryptography and Data Mining. 
 I graduated with First Class Honours in Computer Science and a Mathematics minor from Nanyang Technological University in 2016. 
 <!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems, 
@@ -23,7 +23,7 @@ Research Projects
 
 I've been fortunate to be able to work in research labs and carry out interesting projects. 
 With exception of the first two projects, most projects were carried out during my undergraduate years,
-either as a part-time RA or research intern. For more details of the projects, please go to Project.
+either as a part-time RA or research intern. For more details of the projects, please go to [Projects](https://tramanh06.github.io/projects/).
 
 In reverse chronological order:
 
