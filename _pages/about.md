@@ -8,7 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-This is Tram Anh's personal webpage!
+I'm a Research Assistant working on NLP applications under Prof. Jing Jiang. 
+Previously during my undergrad studies, I did research with Prof. Ng Wee Keong on intersections of 
+Security, Cryptography and Data Mining. 
+I graduated with First Class Honours in Computer Science and Mathematics minor from Nanyang Technological University in 2016. 
+After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems, 
+while heading a Machine Learning interest group. 
+
+My research interests lie in Deep Learning and Natural Language Processing, especially Natural Language Understanding. 
+
+Research Projects
+-------------------
+* Topic modelling for scientific authors
+  * Research in topic model and Latent Dirichlet Allocation. Extend LDA for a hierarchical
+  collection of documents
+  * Build a ranking system to assign relevant reviewers to papers, 
+  to automatically nominate reviewers during review process
+
+* Financial Reporting using Machine Learning
+  * Apply ML methods on financial transaction data
+  * Enhance interpretability of ML system to understand the results
+  * Replaces hand-coded rules with 99% accuracy
+
+
+
+
+
+
 
 <!-- A data-driven personal website
 ======
