@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/). 
-Previously during my undergraduate studies, I did research with Prof. [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
+I'm a Research Assistant working on NLP applications under Prof [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/). 
+Previously during my undergraduate studies, I did research with Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
 Security, Cryptography and Data Mining. 
 I graduated with First Class Honours in Computer Science and a Mathematics minor from Nanyang Technological University in 2016. 
 <!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems, 
@@ -28,7 +28,7 @@ either as a part-time Research Assistant or Research Intern. For more details of
 In reverse chronological order:
 
 1. **Identify Misinformation/Fake news from social media**
-  * Research Areas: NLP, Semantic Representation, Textual Entailment
+  * Research Areas: *NLP*, *Semantic Representation*, *Textual Entailment*
   * Work in progress
 
 1. **Topic modelling for scientific authors**
