@@ -86,7 +86,8 @@ Awards
 
 Teaching
 --------
-**Math Tutor (2013-2018)**: Teach Mathematics part-time to Junior College students to prepare for their A-level examinations 
+**Math Tutor (2013-2018)**: Around Year 2 of my university year, I started missing doing Math a lot. There is not that many Math-heavy courses in CS curriculum, and I haven't embarked on a Math minor yet, so I decided to teach Math to High School students as a way to keep my Math problem solving skills abreast. 
+Since then, I've taught many Junior College students to prepare for their A-level examinations. It turns out not only do I love solving and thinking in Math, I also greatly enjoy teaching and making Math an easy subject for my students.
 
 
 Fun facts
