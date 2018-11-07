@@ -19,7 +19,7 @@ I have a deep interest for Mathematics and would love to do research in the inte
 My research interests lie in Deep Learning and Natural Language Processing, especially Natural Language Understanding and Knowledge Representation. 
 
 Research Projects
--------------------
+=================
 
 I've been fortunate to work in research labs and carry out interesting projects. 
 With exception of the first three projects, remaining projects were carried out during my undergraduate years,
@@ -27,16 +27,16 @@ either as a part-time Research Assistant or Research Intern. For more details of
 
 In reverse chronological order:
 
-1. **Identify Misinformation/Fake news from social media**
+### Identify Misinformation/Fake news from social media
   * Research Areas: *NLP*, *Semantic Representation*, *Textual Entailment*
   * Work in progress
 
-1. **Topic modelling for scientific authors**
+### Topic modelling for scientific authors
   * Research Areas: *Topic Models*, *Latent Dirichlet Allocation*, *Graphical Model*
   * Work done while at [AI Singapore](https://www.aisingapore.org/)
   * [Code](https://github.com/tramanh06/rpms)
 
-1. **Financial Reporting using Machine Learning**
+&nbsp;&nbsp;&nbsp;&nbsp;**Financial Reporting using Machine Learning**
   * Research Areas: *Machine Learning algorithms*, *Named Entity Recognition*
   * Work done while at Bank of America Merrill Lynch
 
@@ -61,7 +61,7 @@ In reverse chronological order:
 
 
 Awards
-------
+======
 * **NTU President's Research Scholar**
   * Distinction Award for 2013-2014 and 2015-2016
 
