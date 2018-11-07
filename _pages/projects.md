@@ -9,40 +9,40 @@ redirect_from:
 
 In reverse chronological order:
 
-* Topic modelling for scientific authors
+* **Topic modelling for scientific authors** | [Code](https://github.com/tramanh06/rpms)
   * Research in topic model and Latent Dirichlet Allocation. Extend LDA for a hierarchical
   collection of documents
   * Build a ranking system to assign relevant reviewers to papers, 
   to automatically nominate reviewers during review process
-  * Advisor: Prof Bryan Low
+  * __Advisor__: Prof [Bryan Low](https://www.comp.nus.edu.sg/~lowkh/research.html)
 
-* Financial Reporting using Machine Learning
+* **Financial Reporting using Machine Learning**
   * Apply ML methods on financial transaction data
   * Enhance interpretability of ML system to understand the results
   * Replace hand-coded rules with 99% accuracy
 
-* Enhance Customer Churn prediction through Semi-Supervised Learning
+* **Enhance Customer Churn prediction through Semi-Supervised Learning** | [Code](https://github.com/tramanh06/CDR-analysis)
   * Attack the lack of data in Churn prediction by working on Label Progatation using 
   Social Network Analysis techniques
   * Design architecture to train large data in a distributed manner, speeding up training time
-  * Advisor: Prof Ng Wee Keong
+  * __Advisor__: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/)
 
-* Prediction of genetic sequence mutation using Neural Network
+* **Prediction of genetic sequence mutation using Neural Network** | [Code](https://github.com/tramanh06/HIV-DNA-neural-network)
   * Research the use of Cellular Automata in Protein mutation under the use of HIV-1 drug
   * Propose and work on Neural Network to predict location and type of DNA gene during mutation
   * Experiment with Game Theory to improve the algorithm
-  * Advisor: Dr Samuel Gan, Dr Su Tran To Chinh
+  * __Advisor__: Dr [Samuel Gan](http://www.bii.a-star.edu.sg/research/trd/apd.php), Dr [Su Tran To Chinh](https://www.linkedin.com/in/chinhsutranto/?originalSubdomain=sg)
 
-* Privacy-preserving in Outsourced Database
+* **Privacy-preserving in Outsourced Database** | Code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)
   * Work on Homomorphic Cryptosystem (Paillier and Elgamal) to translate
    plaintext SQL queries so that they can retrieve result from an encrypted database
-  * Advisor: Prof Ng Wee Keong, Dr Vasily Sidorov
+  * __Advisor__: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/), Dr [Vasily Sidorov](http://bazzilic.me/)
 
-* Preserving Data Integrity in Cloud Storage
+* **Preserving Data Integrity in Cloud Storage**
   * Research on methods to ensure data has not been contaminated while being stored on the cloud
   * Use B+ tree with hashed blocks that enable quick integrity check over HTTP call
-  * Work is selected to present at International Conference of Undergraduate Research 2015
-  * Advisor: Prof Ng Wee Keong
+  * Work is selected to present at *International Conference of Undergraduate Research 2015*
+  * __Advisor__: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/)
 
 
 <!-- {% include base_path %}
