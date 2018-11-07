@@ -27,35 +27,35 @@ either as a part-time Research Assistant or Research Intern. For more details of
 
 In reverse chronological order:
 
-**1. Identify Misinformation/Fake news from social media**
+1. **Identify Misinformation/Fake news from social media**
   * Research Areas: *NLP*, *Semantic Representation*, *Textual Entailment*
   * Work in progress
 
-**2. Topic modelling for scientific authors**
+1. **Topic modelling for scientific authors**
   * Research Areas: *Topic Models*, *Latent Dirichlet Allocation*, *Graphical Model*
   * Work done while at [AI Singapore](https://www.aisingapore.org/)
   * [Code](https://github.com/tramanh06/rpms)
 
-**3. Financial Reporting using Machine Learning**
+1. **Financial Reporting using Machine Learning**
   * Research Areas: *Machine Learning algorithms*, *Named Entity Recognition*
   * Work done while at Bank of America Merrill Lynch
 
-**4. Enhance Customer Churn prediction through Semi-Supervised Learning**
+1. **Enhance Customer Churn prediction through Semi-Supervised Learning**
   * Research Areas: *Social Network Analysis*, *Map Reduce*, *Label Propagation*
   * Final Year Project
   * [Code](https://github.com/tramanh06/CDR-analysis) 
 
-**5. Prediction of genetic sequence mutation using Neural Network**
+1. **Prediction of genetic sequence mutation using Neural Network**
   * Research Areas: *Neural Network*, *Cellular Automata*, *Game Theory*
   * Work done as Research Intern at [BioInformatics Institute](http://www.bii.a-star.edu.sg/), A\*STAR (Agency for Science, Technology and Research)
   * [Code](https://github.com/tramanh06/HIV-DNA-neural-network)
 
-**6. Privacy-preserving in Outsourced Database**
+1. **Privacy-preserving in Outsourced Database**
   * Research Areas: *Homomorphic Cryptosystems*, *Database*, *Cryptography*
   * Work done as part-time Research Assistant at NTU Data-Intensive Scalable Computing Lab
   * Code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)
 
-**7. Preserving Data Integrity in Cloud Storage**
+1. **Preserving Data Integrity in Cloud Storage**
   * Research Areas: *Security*, *Data encryption*, *Cryptography*
   * Work done as part of Undergraduate Research Experience on Campus
 
@@ -84,11 +84,16 @@ Awards
   * 4-year Full Scholarship (2008-2012) to study Secondary School and Junior College in Singapore
 
 
+Teaching
+--------
+**Math Tutor (2013-2018)**: Teach Mathematics part-time to Junior College students to prepare for their A-level examinations 
+
+
 Fun facts
-=======
+---------
 I was fortunate enough to have piano lessons since very young. Because of that, I've developed huge interest in 
-music, especially musical instruments. Besides piano, I've also picked up guitar, harp, drum and violin. 
-I used to play in a Harp Ensemble, as well as an acoustic band. 
+music, especially musical instruments. Besides piano, I've also picked up guitar, harp, drum and violin (I wish to learn cello next!). 
+I used to be a Section Leader in a Harp Ensemble, as well as a guitarist/keyboarder/cajon-er in an acoustic band. 
 
 
 
@@ -96,16 +101,3 @@ I used to play in a Harp Ensemble, as well as an acoustic band.
 
 
 
-<!-- A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Getting started
-------
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
- -->
