@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Assistant working on NLP applications under Prof [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/). 
+I'm a Research Engineer working on NLP applications under Prof [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/). 
 Previously during my undergraduate studies, I did research with Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
 Security, Cryptography and Data Mining. 
 I graduated with First Class Honours in Computer Science and a Mathematics minor from Nanyang Technological University in 2016. 
@@ -31,29 +31,25 @@ In reverse chronological order:
   * Research Areas: *NLP*, *Semantic Representation*, *Textual Entailment*
   * Work in progress
 
-1. **Topic modelling for scientific authors**
+1. **Topic modelling for scientific authors** \| [code](https://github.com/tramanh06/rpms)
   * Research Areas: *Topic Models*, *Latent Dirichlet Allocation*, *Graphical Model*
   * Work done while at [AI Singapore](https://www.aisingapore.org/)
-  * [Code](https://github.com/tramanh06/rpms)
 
 1. **Financial Reporting using Machine Learning**
   * Research Areas: *Machine Learning algorithms*, *Named Entity Recognition*
   * Work done while at Bank of America Merrill Lynch
 
-1. **Enhance Customer Churn prediction through Semi-Supervised Learning**
+1. **Enhance Customer Churn prediction through Semi-Supervised Learning** \| [code](https://github.com/tramanh06/CDR-analysis)
   * Research Areas: *Social Network Analysis*, *Map Reduce*, *Label Propagation*
   * Final Year Project
-  * [Code](https://github.com/tramanh06/CDR-analysis) 
 
-1. **Prediction of genetic sequence mutation using Neural Network**
+1. **Prediction of genetic sequence mutation using Neural Network** \| [code](https://github.com/tramanh06/HIV-DNA-neural-network)
   * Research Areas: *Neural Network*, *Cellular Automata*, *Game Theory*
   * Work done as Research Intern at [BioInformatics Institute](http://www.bii.a-star.edu.sg/), A\*STAR (Agency for Science, Technology and Research)
-  * [Code](https://github.com/tramanh06/HIV-DNA-neural-network)
 
-1. **Privacy-preserving in Outsourced Database**
+1. **Privacy-preserving in Outsourced Database** \| Code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)
   * Research Areas: *Homomorphic Cryptosystems*, *Database*, *Cryptography*
   * Work done as part-time Research Assistant at NTU Data-Intensive Scalable Computing Lab
-  * Code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)
 
 1. **Preserving Data Integrity in Cloud Storage**
   * Research Areas: *Security*, *Data encryption*, *Cryptography*
