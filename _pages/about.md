@@ -31,7 +31,7 @@ In reverse chronological order:
   * Research Areas: *NLP*, *Semantic Representation*, *Textual Entailment*
   * Work in progress
 
-1. **Topic modelling for scientific authors** \| [code](https://github.com/tramanh06/rpms)
+1. **Topic modelling for scientific authors**  \|  [[code](https://github.com/tramanh06/rpms)]
   * Research Areas: *Topic Models*, *Latent Dirichlet Allocation*, *Graphical Model*
   * Work done while at [AI Singapore](https://www.aisingapore.org/)
 
@@ -39,15 +39,15 @@ In reverse chronological order:
   * Research Areas: *Machine Learning algorithms*, *Named Entity Recognition*
   * Work done while at Bank of America Merrill Lynch
 
-1. **Enhance Customer Churn prediction through Semi-Supervised Learning** \| [code](https://github.com/tramanh06/CDR-analysis)
+1. **Enhance Customer Churn prediction through Semi-Supervised Learning**  \|  [[code](https://github.com/tramanh06/CDR-analysis)]
   * Research Areas: *Social Network Analysis*, *Map Reduce*, *Label Propagation*
   * Final Year Project
 
-1. **Prediction of genetic sequence mutation using Neural Network** \| [code](https://github.com/tramanh06/HIV-DNA-neural-network)
+1. **Prediction of genetic sequence mutation using Neural Network**  \|  [[code](https://github.com/tramanh06/HIV-DNA-neural-network)]
   * Research Areas: *Neural Network*, *Cellular Automata*, *Game Theory*
   * Work done as Research Intern at [BioInformatics Institute](http://www.bii.a-star.edu.sg/), A\*STAR (Agency for Science, Technology and Research)
 
-1. **Privacy-preserving in Outsourced Database** \| Code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)
+1. **Privacy-preserving in Outsourced Database**  \|  [code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)]
   * Research Areas: *Homomorphic Cryptosystems*, *Database*, *Cryptography*
   * Work done as part-time Research Assistant at NTU Data-Intensive Scalable Computing Lab
 
