@@ -9,20 +9,21 @@ redirect_from:
 ---
 
 I'm a Research Engineer working on NLP applications under Prof [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/). 
-Previously during my undergraduate studies, I did research with Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
+Previously, during my undergraduate studies, I did research with Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
 Security, Cryptography and Data Mining. 
 I graduated with First Class Honours in Computer Science and a Mathematics minor from Nanyang Technological University in 2016. 
 <!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems, 
 while heading a Machine Learning interest group.  -->
 
-I have a deep interest for Mathematics and would love to do research in the intersection of Math and Computer Science.
+<!-- I have a deep interest for Mathematics and would love to do research in the intersection of Math and Computer Science. -->
 My research interests lie in Deep Learning and Natural Language Processing, especially Natural Language Understanding and Knowledge Representation. 
 
 Research Projects
 =================
 
-I've been fortunate to work in research labs and carry out interesting projects. 
-With exception of the first three projects, remaining projects were carried out during my undergraduate years,
+I've been fortunate to work on interesting projects in various research labs. 
+I've worked on the first three projects since graduation; the remaining were done during
+my undergraduate years,
 either as a part-time Research Assistant or Research Intern. For more details of the projects, please go to [Projects](https://tramanh06.github.io/projects/).
 
 In reverse chronological order:
@@ -62,13 +63,13 @@ Awards
   * Distinction Award for 2013-2014 and 2015-2016
 
 * **Dean's List 2014/2015**
-  * Awarded to top 5% Performing Students in the cohort
+  * Awarded to top 5% performing students in the cohort
 
 * **Infocomm Development Authority (IDA) Talent Development Scholarship**
-  * Sponsor for technical courses and award grants to Outstanding Computing students
+  * Awarded grants and sponsorship for technical courses and to outstanding computing students
 
 * **ASEAN Undergraduate Scholarship**
-  * 4-year Full Scholarship (2012-2016) to study at any Undergraduate University in Singapore
+  * 4-year Full-ride Scholarship (2012-2016) to study at any Undergraduate University in Singapore
 
 * **NTU Academic Excellence Scholarship**
   * Awards and grants for Top-scorer students in the School of Computer Engineering
