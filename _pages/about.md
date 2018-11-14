@@ -69,7 +69,7 @@ Awards
   * Awarded grants and sponsorship for technical courses and to outstanding computing students
 
 * **ASEAN Undergraduate Scholarship**
-  * 4-year Full-ride Scholarship (2012-2016) to study at any Undergraduate University in Singapore
+  * 4-year Full Scholarship (2012-2016) to study at any Undergraduate University in Singapore
 
 * **NTU Academic Excellence Scholarship**
   * Awards and grants for Top-scorer students in the School of Computer Engineering
@@ -80,11 +80,16 @@ Awards
 * **Ministry of Education Scholarship**
   * 4-year Full Scholarship (2008-2012) to study Secondary School and Junior College in Singapore
 
+* **Vietnam National Math Competition**
+  * 2nd place national for Grade 9 students 
+
+
 
 Teaching
 --------
-**Math Tutor (2013-2018)**: Around Year 2 of my university year, I started missing doing Math a lot. There weren't that many Math-heavy courses in CS curriculum, and I haven't embarked on a Math minor by then. So I decided to teach Math to High School students as a way to keep my Math solving skills abreast. 
-Since then, I've taught many Junior College students to prepare for their A-level examinations. It turns out not only do I love solving and thinking in Math, I also greatly enjoy teaching and making Math an easy subject for my students.
+**Math Tutor (2013-2018)**: Teaching Mathematics to Junior College students (Private Tutor)
+<!-- Around Year 2 of my university year, I started missing doing Math a lot. There weren't that many Math-heavy courses in CS curriculum, and I haven't embarked on a Math minor by then. So I decided to teach Math to High School students as a way to keep my Math solving skills abreast. 
+Since then, I've taught many Junior College students to prepare for their A-level examinations. It turns out not only do I love solving and thinking in Math, I also greatly enjoy teaching and making Math an easy subject for my students. -->
 
 
 Fun facts
