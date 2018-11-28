@@ -15,19 +15,18 @@ In reverse chronological order:
 
 * **Topic modelling for scientific authors**  \|  [[code](https://github.com/tramanh06/rpms)]
   * Researched in topic model using Latent Dirichlet Allocation. Extended LDA for a hierarchical collection of documents. Achieved good results with Author-Topic Model
-  * Built a ranking system to assign relevant reviewers to papers.
-  to automatically nominate reviewers during review process
+  * Built a ranking system to assign relevant reviewers to papers and automatically nominate reviewers during review process
   * Advisor: Prof [Bryan Low](https://www.comp.nus.edu.sg/~lowkh/research.html)
 
 * **Financial Reporting using Machine Learning**
-  * Apply ML methods on financial transaction data. Solution using Neural Network and Decision Tree.
-  * Enhance interpretability of ML system by displaying Decision Tree result. Certain level of pruning was done to make the tree more readable
+  * Applied ML methods on financial transaction data. Solution using Neural Network and Decision Tree.
+  * Enhanced interpretability of ML system by displaying Decision Tree result. Certain level of pruning was done to make the tree more readable
   * Replace hand-coded rules with 99% accuracy
 
 * **Enhance Customer Churn prediction through Semi-Supervised Learning**  \|  [[code](https://github.com/tramanh06/CDR-analysis)]
-  * Model customer and their calls as one big graph, with edge weights as a function of calls and text activities
+  * Modeled customer and their calls as one big graph, with edge weights as a function of calls and text activities
   * Researched on Label Propagation to propagate labeled nodes (already churned customers) to unlabeled nodes in a graph. Churned customers might influence their friends in the network to churn
-  * Use Label Propagation score as a feature to train churn classifier. Winner classifier is Logistic Regression with accuracy of 96.9% accuracy
+  * Used Label Propagation score as a feature to train churn classifier. Winner classifier is Logistic Regression with accuracy of 96.9% accuracy
   * Designed an architecture to train the data in a distributed manner using MapReduce, speeding up training time
   * Advisor: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/)
   
@@ -43,8 +42,8 @@ In reverse chronological order:
   * Advisor: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/), Dr [Vasily Sidorov](http://bazzilic.me/)
 
 
-* **Preserving Data Integrity in Cloud Storage**
-  * Researched on a tree-based hashing function to detect changes in files. Idea: File is split into blocks, and forms leaves of a B+ tree. Root of the tree is hashed in a bottom-up manner, becoming signature of the file. Signature is computed regularly on the third-party storage site and sent to a server for integrity checks
+* **Preserving Data Integrity in Cloud Storage** \| [Technical Report](https://dr.ntu.edu.sg/handle/10220/26032)
+  * Researched on a tree-based hashing function to detect changes in files. Idea: File is split into blocks, and forms leaves of a B-tree. Root of the tree is hashed in a bottom-up manner, becoming signature of the file. Signature is computed regularly on the third-party storage site and sent to a server for integrity checks
   * Implemented a working solution for the generation of signature and server check. Confirmed the runtime complexity of calculating signature is less than O(n)
   * Work is selected to present at *International Conference of Undergraduate Research 2015*
   * Advisor: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/)
