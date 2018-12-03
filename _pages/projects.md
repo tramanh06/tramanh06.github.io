@@ -21,7 +21,7 @@ In reverse chronological order:
 * **Financial Reporting using Machine Learning**
   * Applied ML methods on financial transaction data. Solution using Neural Network and Decision Tree.
   * Enhanced interpretability of ML system by displaying Decision Tree result. Certain level of pruning was done to make the tree more readable
-  * Replace hand-coded rules with 99% accuracy
+  * Replace hand-coded rules with >95% accuracy
 
 * **Enhance Customer Churn prediction through Semi-Supervised Learning**  \|  [[code](https://github.com/tramanh06/CDR-analysis)]
   * Modeled customer and their calls as one big graph, with edge weights as a function of calls and text activities
@@ -32,7 +32,7 @@ In reverse chronological order:
   
 
 * **Prediction of genetic sequence mutation using Neural Network**  \|  [[code](https://github.com/tramanh06/HIV-DNA-neural-network)]
-  * Implemented Recurrent Neural Network to train and predict how genetic sequence mutates under influence of HIV-1 drugs. Used one-hot encoding to encode 4 proteins (T, G, A, C) and LSTM to process the sequence. Correctly predicted positions of mutation and corresponding types up to 80%
+  * Implemented Recurrent Neural Network to train and predict how genetic sequence mutates under influence of HIV-1 drugs. Used one-hot encoding to encode 4 proteins (T, G, A, C) and LSTM to process the sequence. Correctly predicted positions of mutation and corresponding types up to 90%
   * Researched and experimented alternative approach using Game Theory and Cellular Automata
   * Advisor: Dr [Samuel Gan](http://www.bii.a-star.edu.sg/research/trd/apd.php), Dr [Su Tran To Chinh](https://www.linkedin.com/in/chinhsutranto/?originalSubdomain=sg)
 

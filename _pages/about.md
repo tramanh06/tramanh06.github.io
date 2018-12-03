@@ -59,7 +59,7 @@ In reverse chronological order:
 
 Awards
 ======
-* **NTU President's Research Scholar**
+* **NTU President Research Scholar**
   * Distinction Award for 2013-2014 and 2015-2016
 
 * **Dean's List 2014/2015**
