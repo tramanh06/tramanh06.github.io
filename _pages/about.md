@@ -16,7 +16,7 @@ I graduated with First Class Honours in Computer Science and a Mathematics minor
 while heading a Machine Learning interest group.  -->
 
 <!-- I have a deep interest for Mathematics and would love to do research in the intersection of Math and Computer Science. -->
-My research interests lie in Deep Learning and Natural Language Processing, especially Natural Language Understanding and Knowledge Representation. 
+My research interests lie in Machine Learning and Natural Language Processing, especially Natural Language Understanding. 
 
 Research Projects
 =================
