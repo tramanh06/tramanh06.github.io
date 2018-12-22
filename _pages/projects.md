@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
@@ -9,40 +8,45 @@ redirect_from:
 
 In reverse chronological order:
 
-* Topic modelling for scientific authors
-  * Research in topic model and Latent Dirichlet Allocation. Extend LDA for a hierarchical
-  collection of documents
-  * Build a ranking system to assign relevant reviewers to papers, 
-  to automatically nominate reviewers during review process
-  * Advisor: Prof Bryan Low
+* **Identify Misinformation/Fake news from social media**
+  * Research in Deep Learning and NLP approach to identify fake news and rumour 
+  * Collect fake news data in Singapore, crawl and annotate rumour/non-rumour data gleaned from social media (Twitter, Facebook, Forums)
+  * Work in progress
 
-* Financial Reporting using Machine Learning
-  * Apply ML methods on financial transaction data
-  * Enhance interpretability of ML system to understand the results
-  * Replace hand-coded rules with 99% accuracy
+* **Topic modelling for scientific authors**  \|  [[code](https://github.com/tramanh06/rpms)]
+  * Researched in topic model using Latent Dirichlet Allocation. Extended LDA for a hierarchical collection of documents. Achieved good results with Author-Topic Model
+  * Built a ranking system to assign relevant reviewers to papers and automatically nominate reviewers during review process
+  * Advisor: Prof [Bryan Low](https://www.comp.nus.edu.sg/~lowkh/research.html)
 
-* Enhance Customer Churn prediction through Semi-Supervised Learning
-  * Attack the lack of data in Churn prediction by working on Label Progatation using 
-  Social Network Analysis techniques
-  * Design architecture to train large data in a distributed manner, speeding up training time
-  * Advisor: Prof Ng Wee Keong
+* **Financial Reporting using Machine Learning**
+  * Applied ML methods on financial transaction data. Solution using Neural Network and Decision Tree.
+  * Enhanced interpretability of ML system by displaying Decision Tree result. Certain level of pruning was done to make the tree more readable
+  * Replace hand-coded rules with >95% accuracy
 
-* Prediction of genetic sequence mutation using Neural Network
-  * Research the use of Cellular Automata in Protein mutation under the use of HIV-1 drug
-  * Propose and work on Neural Network to predict location and type of DNA gene during mutation
-  * Experiment with Game Theory to improve the algorithm
-  * Advisor: Dr Samuel Gan, Dr Su Tran To Chinh
+* **Enhance Customer Churn prediction through Semi-Supervised Learning**  \|  [[code](https://github.com/tramanh06/CDR-analysis)]
+  * Modeled customer and their calls as one big graph, with edge weights as a function of calls and text activities
+  * Researched on Label Propagation to propagate labeled nodes (already churned customers) to unlabeled nodes in a graph. Churned customers might influence their friends in the network to churn
+  * Used Label Propagation score as a feature to train churn classifier. Winner classifier is Logistic Regression with accuracy of 96.9% accuracy
+  * Designed an architecture to train the data in a distributed manner using MapReduce, speeding up training time
+  * Advisor: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/)
+  
 
-* Privacy-preserving in Outsourced Database
-  * Work on Homomorphic Cryptosystem (Paillier and Elgamal) to translate
-   plaintext SQL queries so that they can retrieve result from an encrypted database
-  * Advisor: Prof Ng Wee Keong, Dr Vasily Sidorov
+* **Prediction of genetic sequence mutation using Neural Network**  \|  [[code](https://github.com/tramanh06/HIV-DNA-neural-network)]
+  * Implemented Recurrent Neural Network to train and predict how genetic sequence mutates under influence of HIV-1 drugs. Used one-hot encoding to encode 4 proteins (T, G, A, C) and LSTM to process the sequence. Correctly predicted positions of mutation and corresponding types up to 90%
+  * Researched and experimented alternative approach using Game Theory and Cellular Automata
+  * Advisor: Dr [Samuel Gan](http://www.bii.a-star.edu.sg/research/trd/apd.php), Dr [Su Tran To Chinh](https://www.linkedin.com/in/chinhsutranto/?originalSubdomain=sg)
 
-* Preserving Data Integrity in Cloud Storage
-  * Research on methods to ensure data has not been contaminated while being stored on the cloud
-  * Use B+ tree with hashed blocks that enable quick integrity check over HTTP call
-  * Work is selected to present at International Conference of Undergraduate Research 2015
-  * Advisor: Prof Ng Wee Keong
+* **Privacy-preserving in Outsourced Database**  \|  [code: [ElGamal](https://github.com/bazzilic/ElGamalExt), [Paillier](https://github.com/bazzilic/PaillierExt)]
+  * Implemented ElGamal and Paillier Homomorphic Cryptosystems to encode plaintext SQL queries and retrieve result from encrypted database
+  * Built different handlings for different types of queries (AND, OR, and aggregate functions)
+  * Advisor: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/), Dr [Vasily Sidorov](http://bazzilic.me/)
+
+
+* **Preserving Data Integrity in Cloud Storage** \| [Technical Report](https://dr.ntu.edu.sg/handle/10220/26032)
+  * Researched on a tree-based hashing function to detect changes in files. Idea: File is split into blocks, and forms leaves of a B-tree. Root of the tree is hashed in a bottom-up manner, becoming signature of the file. Signature is computed regularly on the third-party storage site and sent to a server for integrity checks
+  * Implemented a working solution for the generation of signature and server check. Confirmed the runtime complexity of calculating signature is less than O(n)
+  * Work is selected to present at *International Conference of Undergraduate Research 2015*
+  * Advisor: Prof [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/)
 
 
 <!-- {% include base_path %}
