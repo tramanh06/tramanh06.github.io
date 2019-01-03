@@ -29,7 +29,7 @@ either as a part-time Research Assistant or Research Intern. For more details of
 In reverse chronological order:
 
 1. **Identify Misinformation/Fake news from social media**
-  * Research Areas: *NLP*, *Semantic Representation*, *Textual Entailment*
+  * Research Areas: *NLP*, *Rumour Detection*, *Stance Detection*
   * Work in progress
 
 1. **Topic modelling for scientific authors**  \|  [[code](https://github.com/tramanh06/rpms)]
