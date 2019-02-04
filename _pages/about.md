@@ -75,7 +75,7 @@ Awards
   * Awards and grants for Top-scorer students in the School of Computer Engineering
 
 * **GCE A-Level 6 Distinctions**
-  * Obtained 6 Distinctions for 7 subjects, notably Distinction for Higher 3 Mathematics in "Linear Algebra"
+  * Obtained 6 Distinctions for 7 subjects, notably Distinction for Higher 3 Mathematics in "Linear Algebra" - advanced math subject only offered for top performing students
 
 * **Singapore Mathematical Olympiad Medallists**
   * Gold and Silver Medals for Senior and Open Sections (2008-2011)
