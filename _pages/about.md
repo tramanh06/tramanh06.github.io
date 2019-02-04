@@ -3,25 +3,25 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University. 
-Previously, during my undergraduate studies, I spent 3 years doing research with Prof. [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of 
-Security, Cryptography and Data Mining. 
-I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016. 
-<!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems, 
+I'm a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University.
+Previously, during my undergraduate studies, I spent 3 years doing research with Prof. [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of
+Security, Cryptography and Data Mining.
+I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016.
+<!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems,
 while heading a Machine Learning interest group.  -->
 
 <!-- I have a deep interest for Mathematics and would love to do research in the intersection of Math and Computer Science. -->
-My research interests lie in Machine Learning and Natural Language Processing, especially Natural Language Understanding. 
+My research interests lie in Machine Learning and Natural Language Processing, especially Natural Language Understanding.
 
 Research Projects
 =================
 
-I've been fortunate to work on interesting projects in various research labs. 
+I've been fortunate to work on interesting projects in various research labs.
 I've worked on the first three projects since graduation; the remaining were done during
 my undergraduate years,
 either as a part-time Research Assistant or Research Intern. For more details of the projects, please go to [Projects](https://tramanh06.github.io/projects/).
@@ -69,10 +69,13 @@ Awards
   * Awarded grants and sponsorship for technical courses and to outstanding computing students
 
 * **ASEAN Undergraduate Scholarship**
-  * 4-year Full Scholarship (2012-2016) to study at any Undergraduate University in Singapore
+  * 4-year Full Scholarship (2012-2016) offered by Ministry of Education to study at any Undergraduate University in Singapore
 
 * **NTU Academic Excellence Scholarship**
   * Awards and grants for Top-scorer students in the School of Computer Engineering
+
+* **GCE A-Level 6 Distinctions**
+  * Obtained 6 Distinctions for 7 subjects, notably Distinction for Higher 3 Mathematics in "Linear Algebra"
 
 * **Singapore Mathematical Olympiad Medallists**
   * Gold and Silver Medals for Senior and Open Sections (2008-2011)
@@ -81,26 +84,19 @@ Awards
   * 4-year Full Scholarship (2008-2012) to study Secondary School and Junior College in Singapore
 
 * **Vietnam National Math Competition**
-  * 2nd place national for Grade 9 students 
+  * 2nd place national for Grade 9 students
 
 
 
 Teaching
 --------
 **Math Tutor (2013-2018)**: Teaching Mathematics to Junior College students (Private Tutor)
-<!-- Around Year 2 of my university year, I started missing doing Math a lot. There weren't that many Math-heavy courses in CS curriculum, and I haven't embarked on a Math minor by then. So I decided to teach Math to High School students as a way to keep my Math solving skills abreast. 
+<!-- Around Year 2 of my university year, I started missing doing Math a lot. There weren't that many Math-heavy courses in CS curriculum, and I haven't embarked on a Math minor by then. So I decided to teach Math to High School students as a way to keep my Math solving skills abreast.
 Since then, I've taught many Junior College students to prepare for their A-level examinations. It turns out not only do I love solving and thinking in Math, I also greatly enjoy teaching and making Math an easy subject for my students. -->
 
 
 Fun facts
 ---------
-I was fortunate enough to have piano lessons since very young. Because of that, I've developed huge interest in 
-music, especially musical instruments. Besides piano, I've also picked up guitar, harp, drum and violin (I wish to learn cello next!). 
-I used to be a Section Leader in a Harp Ensemble, as well as a guitarist/keyboarder/cajon-er in an acoustic band. 
-
-
-
-
-
-
-
+I was fortunate enough to have piano lessons since very young. Because of that, I've developed huge interest in
+music, especially musical instruments. Besides piano, I've also picked up guitar, harp, drum and violin (I wish to learn cello next!).
+I used to be a Section Leader in a Harp Ensemble, as well as a guitarist/keyboarder/cajon-er in an acoustic band.
