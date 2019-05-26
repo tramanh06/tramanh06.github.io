@@ -118,7 +118,7 @@ Where to look for baselines?
 Acknowledgement
 ---------------
 
-All the images are taken as screenshots from the slides of the course. 
+All the images are taken as screenshots from the slides of the course. Below are the links to the slides and video of the full lesson.
 
-[slides](https://fullstackdeeplearning.com/assets/slides/fsdl_2_projects.pdf), 
+[slides](https://fullstackdeeplearning.com/assets/slides/fsdl_2_projects.pdf) | 
 [video](https://www.youtube.com/watch?v=tBUK1_cHu-8)
