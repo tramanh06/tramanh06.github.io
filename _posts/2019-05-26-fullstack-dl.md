@@ -106,10 +106,19 @@ Baseline gives us a lower bound on expected model performance.
 
 Baselines are important in determining the next action after evaluating a model.
 If the model's performance is close to a baseline, the next step to improve is to collect more data or harder fine-tuning. 
-But if the model's performance is a lot worse than the baseline, it is an indication that the model is not worth pursuing further -- it is best to choose a different model. 
+But if the model's performance is a lot worse than the baseline, it is an indication that the model is not worth pursuing further -- it is best to try a different model. 
 
 Where to look for baselines?
 - Business/engineering requirements
 - Published results in the literature
 - Scripted baseline (simple bot / hand-engineered automation)
 - Simple ML baselines (linear regressions, bag-of-words models, basic NN without batch norm, weight norm, etc)
+
+
+Acknowledgement
+---------------
+
+All the images are taken as screenshots from the slides of the course. 
+
+[slides](https://fullstackdeeplearning.com/assets/slides/fsdl_2_projects.pdf), 
+[video](https://www.youtube.com/watch?v=tBUK1_cHu-8)
