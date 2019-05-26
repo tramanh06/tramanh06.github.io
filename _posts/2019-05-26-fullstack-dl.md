@@ -12,7 +12,7 @@ Different from fast.ai or the Andrew Ng's Deep Learning Specialization,
 this course focuses more on the practical aspects of deep learning (DL), 
 such as productionizing DL, collecting data, defining scopes for the project, etc.
 
-I took the course online from their website. Although I consider myself having
+I didn't get to attend the course, but took it online. Although I consider myself having
 a reasonable amount of experience in Machine Learning and DL,
 I have learnt many useful industrial tips and tricks on shipping DL products.
 
@@ -27,11 +27,11 @@ The lifecycle of an ML project has 4 stages:
 
 1. Planning and project setup
 
-   This is where you define the scope of the project, requirements and goals. It is important to read the relevant literature to make sure you're not designing a moon-shot project.
+   This is where we define the scope of the project, requirements and goals. It is important to read the relevant literature to make sure we're not designing a moon-shot project.
 
 2. Data collection and labelling
 
-   Certain data will be more easily collected than others, for example collecting social media is fairly, whereas collecting data for pose estimation project is more tricky. It is also worth noting that collecting data as a whole is much easier than getting the data labelled. Sometimes we may need to engage Mechanical Turkers to label the data for us. 
+   Certain data will be more easily collected than others, for example collecting social media is fairly easy, whereas collecting data for pose estimation project is more tricky. It is also worth noting that collecting data as a whole is much easier than getting the data labelled. Sometimes we may need to engage Mechanical Turkers to label the data for us. 
 
    Note that the size of the dataset depends largely on the type of project. If the project is ML or the usual neural networks, 10k datapoints are usually good. If the project involves images, we may need around 100k images. One clue to help in gauging a rough size of dataset is to follow the datasets used by the papers working on a similar problem. If we are short on data, we can pre-train our model on a bigger but similar dataset, and later finetune with our own dataset.
 
@@ -46,18 +46,18 @@ The lifecycle of an ML project has 4 stages:
    Lastly, we write tests to prevent regression. Once all are good, we can roll out to production.
 
 Above are the 4 key stages of an ML pipelines. However, note that it is an iterative process. 
-So maybe during the data collection phase, you realise that the data you wanted are too scarce or that it is hard to label the data. 
-You may then go back to step 1 to re-scope the project. 
-Or maybe during training phase, you realise the model is over-fitting and you need more data to represent the test set. You go back to step 2 to collect more data.
+So maybe during the data collection phase, we realise that the data we wanted are too scarce or that it is hard to label the data. 
+We may then go back to step 1 to re-scope the project. 
+Or maybe during training phase, we realise the model is over-fitting and we need more data to represent the test set. We then go back to step 2 to collect more data.
 
-Let this moving gif tell you the general iterative process of an ML pipeline.
+Let this moving gif tell us the general iterative process of an ML pipeline.
 
-![alt text](/images/ml-lifecycle.gif "ML Pipeline")
+![ML Pipeline](/images/ml-lifecycle.gif)
 
 ## Choosing projects
 
 The key to priotize which projects to work on first is to identiy: 
-(1) a high-impact, complex part in your workflow that could be automated by making use of 
+(1) a high-impact, complex part in our workflow that could be automated by making use of 
 (2) cheap predition.
 
 Feasibility of the project is also important. There are 3 components that determine the feasibility:
@@ -102,7 +102,7 @@ In this case, there are 3 ways to unite P and R:
 
 ## Choosing baselines
 
-Baseline gives you a lower bound on expected model performance. 
+Baseline gives us a lower bound on expected model performance. 
 
 Baselines are important in determining the next action after evaluating a model.
 If the model's performance is close to a baseline, the next step to improve is to collect more data or harder fine-tuning. 
