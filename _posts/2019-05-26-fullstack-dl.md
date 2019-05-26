@@ -33,7 +33,7 @@ The lifecycle of an ML project has 4 stages:
 
    Certain data will be more easily collected than others, for example collecting social media is fairly easy, whereas collecting data for pose estimation project is more tricky. It is also worth noting that collecting data as a whole is much easier than getting the data labelled. Sometimes we may need to engage Mechanical Turkers to label the data for us. 
 
-   Note that the size of the dataset depends largely on the type of project. If the project is ML or the usual neural networks, 10k datapoints are usually good. If the project involves images, we may need around 100k images. One clue to help in gauging a rough size of dataset is to follow the datasets used by the papers working on a similar problem. If we are short on data, we can pre-train our model on a bigger but similar dataset, and later finetune with our own dataset.
+   Note that the size of the dataset depends largely on the type of project. If the project is ML or the usual neural networks, 10k data-points are usually good. If the project involves images, we may need around 100k images. One clue to help in gauging a rough size of dataset is to follow the datasets used by the papers working on a similar problem. If we are short on data, we can pre-train our model on a bigger but similar dataset, and later finetune with our own dataset.
 
 3. Training and debugging
 
@@ -46,9 +46,9 @@ The lifecycle of an ML project has 4 stages:
    Lastly, we write tests to prevent regression. Once all are good, we can roll out to production.
 
 Above are the 4 key stages of an ML pipelines. However, note that it is an iterative process. 
-So maybe during the data collection phase, we realise that the data we wanted are too scarce or that it is hard to label the data. 
+So maybe during the data collection phase, we realize that the data we wanted are too scarce or that it is hard to label the data. 
 We may then go back to step 1 to re-scope the project. 
-Or maybe during training phase, we realise the model is over-fitting and we need more data to represent the test set. We then go back to step 2 to collect more data.
+Or maybe during training phase, we realize the model is over-fitting and we need more data to represent the test set. We then go back to step 2 to collect more data.
 
 Let this moving gif tell us the general iterative process of an ML pipeline.
 
@@ -56,9 +56,9 @@ Let this moving gif tell us the general iterative process of an ML pipeline.
 
 ## Choosing projects
 
-The key to priotize which projects to work on first is to identiy: 
+The key to prioritize which projects to work on first is to identify: 
 (1) a high-impact, complex part in our workflow that could be automated by making use of 
-(2) cheap predition.
+(2) cheap prediction.
 
 Feasibility of the project is also important. There are 3 components that determine the feasibility:
 
@@ -74,7 +74,7 @@ ML project costs tend to scale more than linear in order to push the accuracy hi
 
 ![alt text](/images/ml-cost-vs-accuracy.png "ML Cost vs Accuracy")
 
-One template ML team can use to justify the work on a certain project is as belows. 
+One template ML team can use to justify the work on a certain project is as below. 
 FSR stands for Full Stack Robotics and is an imaginary company. The company wants to build a robotic hand that can grasp objects from one bin to another.
 Notice the Impact and the 3 components under Feasibility.
 
