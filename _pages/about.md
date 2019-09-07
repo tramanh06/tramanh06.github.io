@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a Machine Learning Engineer at Grab.
 Previously, I was a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University.
-Before that, I was a Software Engineer at Bank of America Merrill Lynch writing Scala and Spark applications.
+Before that, I was a Software Engineer at Bank of America Merrill Lynch working on ETL systems using Scala and Spark.
 
 I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016.
 <!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems,
