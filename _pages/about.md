@@ -8,15 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University.
-Previously, during my undergraduate studies, I spent 3 years doing research with Prof. [Ng Wee Keong](http://www.ntu.edu.sg/home/awkng/) on intersections of
-Security, Cryptography and Data Mining.
+I'm a Machine Learning Engineer at Grab.
+Previously, I was a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University.
+Before that, I was a Software Engineer at Bank of America Merrill Lynch writing Scala and Spark applications.
+
 I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016.
 <!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems,
 while heading a Machine Learning interest group.  -->
 
 <!-- I have a deep interest for Mathematics and would love to do research in the intersection of Math and Computer Science. -->
-My research interests lie in Machine Learning and Natural Language Processing, especially Natural Language Understanding.
+My research interests lie in Deep Learning and intersection with Natural Language Processing and Computer Vision.
+
 
 Research Projects
 =================
