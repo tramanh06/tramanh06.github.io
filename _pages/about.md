@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Machine Learning Engineer at Grab.
-Previously, I was a Research Assistant working on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University.
-Before that, I was a Software Engineer at Bank of America Merrill Lynch working on ETL systems using Scala and Spark.
+I'm a Machine Learning Engineer at Twitter where I work on tweet and account recommendations. In particular, I build candidate generation for product surfaces such as the Home Timeline, Notification, Email and Who-To-Follow. 
+Previously, I was a Data Scientist/Computer Vision engineer at Grab, building OCR systems for the Know-Your-Customers product flow.
 
-I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016.
+Previously during my academic life, I worked on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University to research on fake news detection.
+Before that, I was a Software Engineer at Bank of America Merrill Lynch working on ETL systems using Scala and Spark in the Reference Data team.
+
+I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016. Motivated to learn more, I took a part-time Master of Computing with Artificial Intelligence specialization from National University of Singapore, and graduated in 2022. 
 <!-- After graduation, I spent 1.5 years as a software engineer in an investment bank, building ETL data pipeline systems,
 while heading a Machine Learning interest group.  -->
 
@@ -100,5 +102,5 @@ Since then, I've taught many Junior College students to prepare for their A-leve
 Fun facts
 ---------
 I was fortunate enough to have piano lessons since very young. Because of that, I've developed huge interest in
-music, especially musical instruments. Besides piano, I've also picked up guitar, harp, drum and violin (I wish to learn cello next!).
+music, especially musical instruments. Besides piano, I've also picked up guitar, harp, drum and violin.
 I used to be a Section Leader in a Harp Ensemble, as well as a guitarist/keyboarder/cajon-er in an acoustic band.
