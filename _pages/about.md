@@ -11,7 +11,7 @@ redirect_from:
 I'm a Machine Learning Engineer at Twitter where I work on tweet and account recommendations. In particular, I build candidate generation for product surfaces such as the Home Timeline, Notification, Email and Who-To-Follow. 
 Previously, I was a Data Scientist/Computer Vision engineer at Grab, building OCR systems for the Know-Your-Customers product flow.
 
-Previously during my academic life, I worked on NLP applications under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University to research on fake news detection.
+When I was in academic, I researched on fake news detection under Prof. [Jing Jiang](http://www.mysmu.edu/faculty/jingjiang/) at Singapore Management University.
 Before that, I was a Software Engineer at Bank of America Merrill Lynch working on ETL systems using Scala and Spark in the Reference Data team.
 
 I graduated with First Class Honours in Computer Science with a focus in Information Systems and a minor in Mathematics from Nanyang Technological University in 2016. Motivated to learn more, I took a part-time Master of Computing with Artificial Intelligence specialization from National University of Singapore, and graduated in 2022. 
@@ -19,7 +19,7 @@ I graduated with First Class Honours in Computer Science with a focus in Informa
 while heading a Machine Learning interest group.  -->
 
 <!-- I have a deep interest for Mathematics and would love to do research in the intersection of Math and Computer Science. -->
-My research interests lie in Deep Learning and intersection with Natural Language Processing and Computer Vision.
+My interests lie in Deep Learning and the intersection with Natural Language Processing, Computer Vision and Recommendations.
 
 
 Research Projects
