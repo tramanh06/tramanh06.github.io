@@ -43,7 +43,7 @@ Here is the overall recommendation pipeline and its components:
   In-network candidate sources is the largest candidate source and aims to deliver the most relevant, recent Tweets from users you follow. It efficiently ranks Tweets of those you follow based on their relevance using a logistic regression model. The top Tweets are then sent to the next stage.
     
     
-### 2.1.1 **RealGraph** ([code](https://github.com/twitter/the-algorithm/blob/main/src/scala/com/twitter/interaction_graph/README.md))
+### 2.1.1 RealGraph ([code](https://github.com/twitter/the-algorithm/blob/main/src/scala/com/twitter/interaction_graph/README.md))
     
 
   **What it is:** It is a logistic regression model that predicts the likelihood of engagement between two users. The higher the real graph score between you and the author, the more of their tweets we'll include.
@@ -59,7 +59,7 @@ Here is the overall recommendation pipeline and its components:
 
 ## 2.2 Out-of-network candidate sources
     
-### 1. **Social Graph - GraphJet** ([code](https://github.com/twitter/GraphJet), [paper](http://www.vldb.org/pvldb/vol9/p1281-sharma.pdf))
+### 1. Social Graph - GraphJet ([code](https://github.com/twitter/GraphJet), [paper](http://www.vldb.org/pvldb/vol9/p1281-sharma.pdf))
     
 
   **What it is:** realtime graph processing library that provides realtime content recommendations. GraphJet maintains a realtime bipartite interaction graph that keeps track of user-tweet interactions over the most recent hours.
@@ -72,7 +72,7 @@ Here is the overall recommendation pipeline and its components:
 
     
 
-### 2. **Embedding** **- SimClusters** ([code](https://github.com/twitter/the-algorithm/tree/main/simclusters-ann), [paper](https://dl.acm.org/doi/10.1145/3394486.3403370))
+### 2. Embedding - SimClusters ([code](https://github.com/twitter/the-algorithm/tree/main/simclusters-ann), [paper](https://dl.acm.org/doi/10.1145/3394486.3403370))
     
 
 ![Alt text](/images/image.png)
@@ -130,7 +130,7 @@ Exceptions for timeliness: in-network tweets, Search. These are retrieved in rea
 
   
 
-## 3. Light Ranker
+# 3. Light Ranker
     
 
 ([code](https://github.com/twitter/the-algorithm/blob/main/src/python/twitter/deepbird/projects/timelines/scripts/models/earlybird/README.md))
@@ -153,7 +153,7 @@ Exceptions for timeliness: in-network tweets, Search. These are retrieved in rea
     
 
   
-## 4. Heavy Ranker
+# 4. Heavy Ranker
     
 
 ([model code](https://github.com/twitter/the-algorithm-ml/blob/main/projects/home/recap/README.md), [inference code](https://github.com/twitter/the-algorithm/tree/main/home-mixer/server/src/main/scala/com/twitter/home_mixer/product))
@@ -194,7 +194,7 @@ After scoring the tweets, boost and filtering will happen:
 
   
 
-## 5. Difference between Twitter and Tiktok recommendation
+# 5. Difference between Twitter and Tiktok recommendation
     
 
 |Twitter|Tiktok|
@@ -206,11 +206,8 @@ After scoring the tweets, boost and filtering will happen:
 
   
 
-## References
+# References
     
-
 - https://github.com/twitter/the-algorithm
-    
 - https://github.com/twitter/the-algorithm-ml
-    
 - https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm
