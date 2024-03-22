@@ -1,6 +1,6 @@
 ---
 title: 'Insights into Twitter Recommendation System'
-date: 2024-03-22
+date: 2023-05-22
 permalink: /posts/2024/03/twitter-recsys/
 tags:
   - deep learning
@@ -9,8 +9,8 @@ tags:
 ---
 
 Background: I was an MLE at Twitter from 2021-2023, working on tweet and account Candidate Generation for the Home Timeline, Email and Push Notification. Below is 
-my short write-up of the Recommendation work inside Twitter. Most of the content and code are open-sourced. I organized them according to the components and services
-that I could remember during my time there.
+my short write-up of the Recommendation work inside Twitter that I could remember. Most of the content and code are open-sourced. I organized them according to the components and services
+that I worked on during my time there.
 
 # 1. Overview
 
