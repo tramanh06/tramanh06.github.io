@@ -15,6 +15,8 @@ particularly the components that power tweet and account recommendations.
 my short write-up of the Recommendation work inside Twitter that I could remember. Most of the content and code are open-sourced. I organized them according to the components and services
 that I worked on during my time there.
 
+{% include toc %}
+
 # 1. Overview
 
 Twitter tweet recommendation algorithm is the main engine behind the ranked timeline on Twitter home page. There are many components that power the computation of a ranked timeline. 
