@@ -8,7 +8,10 @@ tags:
   - recommendation system
 ---
 
-Background: I was an MLE at Twitter from 2021-2023, working on tweet and account Candidate Generation for the Home Timeline, Email and Push Notification. Below is 
+In this article, I will go into insights about the recommendation systems at Twitter,
+particularly the components that power tweet and account recommendations.
+
+*Background:* I was an MLE at Twitter from 2021-2023, working on tweet and account Candidate Generation for the Home Timeline, Email and Push Notification. Below is 
 my short write-up of the Recommendation work inside Twitter that I could remember. Most of the content and code are open-sourced. I organized them according to the components and services
 that I worked on during my time there.
 
@@ -20,9 +23,8 @@ Twitter tweet recommendation algorithm is the main engine behind the ranked time
 
 But first, some numbers for scale between Twitter and TikTok:
 
-|   |   |   |
-|---|---|---|
 ||**Twitter**|**TikTok**|
+|---|---|---|
 |New content size:<br><br>DAUs (as of 2022.10):<br><br>Candidates:|500M new tweets/day<br><br>~238M<br><br>Latest tweets from the last 1 day|100M new videos/day<br><br>>1B<br><br>No limit on video age|
 
 Here is the overall recommendation pipeline and its components:
@@ -71,13 +73,13 @@ Here is the overall recommendation pipeline and its components:
 ### 2. **Embedding** **- SimClusters** ([code](https://github.com/twitter/the-algorithm/tree/main/simclusters-ann), [paper](https://dl.acm.org/doi/10.1145/3394486.3403370))
     
 
-![Alt text](image.png)
+![Alt text](/images/image.png)
 
   **What it is:** An embedding algorithm that generates a sparse embedding for both tweet and author based on their engagements. The input is user or tweet, and SimClusters will return a set of similar users or tweets based on approximate cosine similarity.
 
   **Stacks:** Scala Scalding batch jobs
 
-![Alt text](image-1.png)
+![Alt text](/images/image-1.png)
 
     
 
@@ -154,7 +156,7 @@ Exceptions for timeliness: in-network tweets, Search. These are retrieved in rea
 
 ([model code](https://github.com/twitter/the-algorithm-ml/blob/main/projects/home/recap/README.md), [inference code](https://github.com/twitter/the-algorithm/tree/main/home-mixer/server/src/main/scala/com/twitter/home_mixer/product))
 
-![Alt text](image-2.png)
+![Alt text](/images/image-2.png)
 
 **What it is:** Heavy Ranker is the final stage of ranking before returning the results to the Home Timeline. It uses the candidates returned by the Light Ranker, as well as features from different sources to score them. Heavy ranker model is a real-time inference model
 
@@ -168,9 +170,8 @@ Exceptions for timeliness: in-network tweets, Search. These are retrieved in rea
 
 These are the actions predicted, and [their corresponding weights](https://raw.githubusercontent.com/twitter/the-algorithm-ml/main/projects/home/recap/README.md)
 
-|   |   |
-|---|---|
 |feature|weight|
+|---|---|
 |probability the user will favorite the Tweet|-0.5|
 |probability the user will click into the conversation of this tweet and reply or like a Tweet|(11*)|
 |probability the user will click into the conversation of this Tweet and stay there for at least 2 minutes|(11*)|
@@ -194,9 +195,8 @@ After scoring the tweets, boost and filtering will happen:
 ## 5. Difference between Twitter and Tiktok recommendation
     
 
-|   |   |
-|---|---|
 |Twitter|Tiktok|
+|---|---|
 |- Mainly rely on **explicit signals** (likes, shares, comments)|- Use **implicit signals** besides explicit signals (video watch time)|
 |- Recall:<br>      -- Sparse embeddings<br>          -- Social graph based<br>          -- Only taking tweets from the last 1 day<br>          -- Candidates are run in batch (for out-of-network tweets) |- Recall:<br>      -- Dense embeddings<br>          -- Model-based retrieval<br>          -- No time limit to content<br>          -- Candidates are generated in real time |
 
