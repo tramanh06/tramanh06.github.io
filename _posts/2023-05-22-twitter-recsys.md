@@ -1,7 +1,7 @@
 ---
 title: 'Insights into Twitter's Recommendation System'
-date: 2023-05-22
-permalink: /posts/2023/05/twitter-recsys/
+date: 2024-03-22
+permalink: /posts/2024/03/twitter-recsys/
 tags:
   - deep learning
   - production
