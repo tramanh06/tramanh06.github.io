@@ -6,6 +6,6 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Blog"
-    url: /blog/
+  - title: "Blog Posts"
+    url: /year-archive/
     
