@@ -1,5 +1,5 @@
 ---
-title: 'Insights into Twitter's Recommendation System'
+title: 'Insights into Twitter Recommendation System'
 date: 2024-03-22
 permalink: /posts/2024/03/twitter-recsys/
 tags:
