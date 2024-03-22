@@ -208,6 +208,6 @@ After scoring the tweets, boost and filtering will happen:
 
 # References
     
-- https://github.com/twitter/the-algorithm
-- https://github.com/twitter/the-algorithm-ml
-- https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm
+- [https://github.com/twitter/the-algorithm](https://github.com/twitter/the-algorithm)
+- [https://github.com/twitter/the-algorithm-ml](https://github.com/twitter/the-algorithm-ml)
+- [https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm)
