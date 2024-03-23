@@ -3,7 +3,6 @@ title: 'Insights into Twitter Recommendation System'
 date: 2023-05-22
 permalink: /posts/2024/03/twitter-recsys/
 tags:
-  - deep learning
   - production
   - recommendation system
 ---
@@ -43,8 +42,9 @@ Here is the overall recommendation pipeline and its components:
   In-network candidate sources is the largest candidate source and aims to deliver the most relevant, recent Tweets from users you follow. It efficiently ranks Tweets of those you follow based on their relevance using a logistic regression model. The top Tweets are then sent to the next stage.
     
     
-### 2.1.1 RealGraph ([code](https://github.com/twitter/the-algorithm/blob/main/src/scala/com/twitter/interaction_graph/README.md))
-    
+### 2.1.1 RealGraph 
+
+([code](https://github.com/twitter/the-algorithm/blob/main/src/scala/com/twitter/interaction_graph/README.md))
 
   **What it is:** It is a logistic regression model that predicts the likelihood of engagement between two users. The higher the real graph score between you and the author, the more of their tweets we'll include.
 
@@ -59,8 +59,9 @@ Here is the overall recommendation pipeline and its components:
 
 ## 2.2 Out-of-network candidate sources
     
-### 1. Social Graph - GraphJet ([code](https://github.com/twitter/GraphJet), [paper](http://www.vldb.org/pvldb/vol9/p1281-sharma.pdf))
-    
+### 1. Social Graph - GraphJet 
+
+([code](https://github.com/twitter/GraphJet), [paper](http://www.vldb.org/pvldb/vol9/p1281-sharma.pdf))
 
   **What it is:** realtime graph processing library that provides realtime content recommendations. GraphJet maintains a realtime bipartite interaction graph that keeps track of user-tweet interactions over the most recent hours.
 
@@ -72,7 +73,9 @@ Here is the overall recommendation pipeline and its components:
 
     
 
-### 2. Embedding - SimClusters ([code](https://github.com/twitter/the-algorithm/tree/main/simclusters-ann), [paper](https://dl.acm.org/doi/10.1145/3394486.3403370))
+### 2. Embedding - SimClusters 
+
+([code](https://github.com/twitter/the-algorithm/tree/main/simclusters-ann), [paper](https://dl.acm.org/doi/10.1145/3394486.3403370))
     
 
 ![Alt text](/images/image.png)
@@ -91,8 +94,9 @@ Here is the overall recommendation pipeline and its components:
 
     
     
-### 3. TwHIN ([code](https://github.com/twitter/the-algorithm-ml/tree/main/projects/twhin), [paper](https://arxiv.org/pdf/2202.05387.pdf))
+### 3. TwHIN 
     
+([code](https://github.com/twitter/the-algorithm-ml/tree/main/projects/twhin), [paper](https://arxiv.org/pdf/2202.05387.pdf))
 
   **What it is:** TwHIN (Twitter Heterogeneous Information Network) is a graph network where the nodes/vertices of the graph represent multiple entity types, and the edges represent one of many interaction types between the entities.
 
@@ -113,6 +117,8 @@ Here is the overall recommendation pipeline and its components:
   
 
 ### 2.3 Other considerations
+
+Here I list down a few considerations and issues arising from the Twitter recommendation system stack. Some of them are my own observations, others were something that are known internally and were being worked on. 
 
 **Timeliness:** Most candidate generations are produced by batch jobs and stored in a KV store, keyed by user ID. These jobs run at most every 1 hour. Therefore, most tweets are not fresh. Adding to that, some jobs are delayed by missing data.
 
