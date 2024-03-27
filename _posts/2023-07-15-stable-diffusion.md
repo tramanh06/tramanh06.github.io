@@ -1,5 +1,5 @@
 ---
-title: 'A deep dive into Latent Diffusion model - Stable Diffusion'
+title: 'A Deep Dive into Latent Diffusion model - Stable Diffusion'
 date: 2023-07-15
 permalink: /posts/2023/07/latent-diffusion-model/
 tags:
