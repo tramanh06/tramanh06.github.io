@@ -8,9 +8,10 @@ tags:
   - paper reading
 ---
 
-{% include toc %} 
 
 # 1. Introduction
+
+{% include toc %} 
 
 AI image generation is one of the notable AI advances recently. The ability to create striking visuals from text descriptions has a magical quality to it and points clearly to a shift in how humans create art. The release of [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) is a clear milestone in this development because it made a high-performance model available to the masses (performance in terms of image quality, as well as speed and relatively low resource/memory requirements).
 
@@ -18,7 +19,7 @@ AI image generation is one of the notable AI advances recently. The ability to c
 
 | <img src="/_posts/image-1.png" alt="alt text" width="200" />  | <img src="/_posts/image-2.png" alt="alt text" width="200" />  | <img src="/_posts/image-3.png" alt="alt text" width="200" />  |
 | ---- | ---- | ---- |
-| <div style="width:290px">"a lovely cat running in the desert in Van Gogh style, trending art"</div>  | <div style="width:290px">"Batman eating pizza in a diner"</div>  | <div style="width:290px">"astronaut looking at a nebula, digital art, trending on artstation, hyperdetailed, matte painting"</div>   |
+| "a lovely cat running in the desert in Van Gogh style, trending art"</div>  | "Batman eating pizza in a diner"</div>  | "astronaut looking at a nebula, digital art, trending on artstation, hyperdetailed, matte painting"</div>   |
 
 Before Stable Diffusion took the world by storm, there are other image generation techniques such as GAN and VAE. However, the image qualities of these methods are not very good.
 
@@ -88,9 +89,9 @@ Variational Autoencoder is an unsupervised method to learn an embedding of any i
 
 The purpose of having the VAE in Stable Diffusion is to compress the image from pixel space to a latent space. The main contribution of Stable Diffusion is applying diffusion model on the latent space, rather than pixel space, resulting in less computation, faster training speed and faster inference time.
 
-|  <img src="/_posts/image-9.png" alt="alt text" width="200" />  |
-| ---- |
-| *Latent state contains a “sketch version” of the image* |
+<img src="/_posts/image-9.png" alt="alt text" width="200" />
+
+^ *Latent state contains a “sketch version” of the image*
 
   
 
@@ -135,7 +136,7 @@ Stable Diffusion trains a conditioned score model using U-net to approximate ima
 
 ## 3.4 U-Net
 
-### 3.4.1 U-net architecture
+### 3.4.1 U-Net architecture
     
 
 U-Net is a common CNN architecture used for image segmentation (pixel classification). The output of the model is the same size as the input. Every pixel is a classification space.
