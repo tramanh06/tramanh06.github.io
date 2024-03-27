@@ -9,11 +9,9 @@ tags:
 ---
 
 
-# 1. Introduction
+AI image generation is one of the notable AI advances recently. The ability to create striking visuals from text descriptions has a magical quality to it and points clearly to a shift in how humans create art. The release of [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) is a clear milestone in this development because it made a high-performance model available to the masses (performance in terms of image quality, as well as speed and relatively low resource/memory requirements).
 
 {% include toc %} 
-
-AI image generation is one of the notable AI advances recently. The ability to create striking visuals from text descriptions has a magical quality to it and points clearly to a shift in how humans create art. The release of [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) is a clear milestone in this development because it made a high-performance model available to the masses (performance in terms of image quality, as well as speed and relatively low resource/memory requirements).
 
 ![Alt text](/_posts/image.png)
 
@@ -29,7 +27,7 @@ History: Stable Diffusion is a collaboration between the researchers at Ludwig M
 
 ![Alt text](/_posts/image-4.png)
 
-# 2. Overview of Stable Diffusion
+# 1. Overview of Stable Diffusion
     
 
 Stable Diffusion is a system made up of several components and models. It is not one monolithic model.
@@ -52,10 +50,10 @@ On the training side, in order to train the components, here are the steps.
 |  <img src="/_posts/image-6.png" alt="alt text" width="500" /> | 1. **Train VAE**: train model to encode image semantics into the model<br>    <br>2. **Train CLIP model**: CLIP is a bimodal text-image self-supervised learning<br>    <br>3. **Forward Diffusion**: to inject noise to the image<br>    <br>4. **Train Denoising model**: learn to denoise the diffused image and text embedding<br>    <br>5. **Decoder**: Use the trained autodecoder in step 1 to decode the embedding into an image |
 
 
-# 3. Stable Diffusion components
+# 2. Stable Diffusion components
     
 
-## 3.1 Text encoder (CLIP)
+## 2.1 Text encoder (CLIP)
 
 [CLIP](https://openai.com/research/clip) (_Contrastive Language–Image_ _Pre-training_) is a zero-shot transfer, natural language supervision, and multimodal learning. The training process involves a pair of image and its text caption, and trained in a contrastive self-supervised manner. The purpose is to learn a joint encoding space for text caption and image.
 
@@ -69,7 +67,7 @@ Stable Diffusion uses the text embedding of CLIP to represent the text prompts.
 
   
 
-## 3.2 Variational Autoencoder (VAE)
+## 2.2 Variational Autoencoder (VAE)
 
 **VAE**: Given an image $x \in R^{H\times{W}\times{3}}$ in RGB space, the encoder $E$ encodes $x$ into a latent representation $z=E(x)$, and the decoder $D$ reconstructs the image from the latent, giving $\hat{x}=D(z)=D(E(x))$
 
@@ -108,7 +106,7 @@ We only need to train VAE once, and reuse for multiple Diffusion model trainings
 
   
 
-## 3.3 Diffusion model
+## 2.3 Diffusion model
 
 > “Creating noise from data is easy; Creating data from noise is generative modeling."
 
@@ -134,9 +132,9 @@ Diffusion model learns to denoise a normally distributed image (reverse diffusio
 Stable Diffusion trains a conditioned score model using U-net to approximate image to image mapping.
 
 
-## 3.4 U-Net
+## 2.4 U-Net
 
-### 3.4.1 U-Net architecture
+### 2.4.1 U-Net architecture
     
 
 U-Net is a common CNN architecture used for image segmentation (pixel classification). The output of the model is the same size as the input. Every pixel is a classification space.
@@ -156,7 +154,7 @@ Stable Diffusion uses U-Net as a function approximator for the diffusion denoisi
 
 ![Alt text](/_posts/image-13.png)
 
-### 3.4.2 Cross Attention in U-Net
+### 2.4.2 Cross Attention in U-Net
 
 To pre-process y from various modalities (such as text prompts) we introduce a domain specific encoder that projects $y$ to an intermediate representation which is then mapped to the intermediate layers of the UNet via a **cross-attention** layer implementing $Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d}}) . V$
 
@@ -174,10 +172,10 @@ Cross attention is a general purpose conditioning mechanism that enables multi-m
 
   
 
-# 4. Other details
+# 3. Other details
     
 
-## 4.1 Stable Diffusion training data
+## 3.1 Stable Diffusion training data
 
 - Stable Diffusion is trained on ~2 Billion image–caption (English) pairs.
     
@@ -187,7 +185,7 @@ Cross attention is a general purpose conditioning mechanism that enables multi-m
 
 Input image (3, 512, 512) tensor --> 𝑧 is (4, 64, 64) latent tensor
 
-## 4.2 Downstream Applications of Diffusion models
+## 3.2 Downstream Applications of Diffusion models
 
 As Denoising U-net model can take in various kinds of conditioning, we can rely on that to inject different modalities to the model. Recalling the conditioning part of the architecture:
 
@@ -238,7 +236,7 @@ Output: image with high resolution
 ![Alt text](/_posts/image-21.png)
   
 
-## 4.3 Other types of image generative models
+## 3.3 Other types of image generative models
 
 > Recall that Stable diffusion is a likelihood-based model, latent diffusion over a U-net backbone architecture. It is the SoTA in density estimation and sample quality
 
@@ -259,10 +257,10 @@ These are other image generative models:
 
   
 
-# 5. Practical usage
+# 4. Practical usage
     
 
-## 5.1 Local run
+## 4.1 Local run
 
 - Model weights: You can download the model weights from HuggingFace and run inference on the command line
     
@@ -299,7 +297,7 @@ Settings details: https://stable-diffusion-art.com/automatic1111/
 
   
 
-## 5.2 Hosted HuggingFace spaces
+## 4.2 Hosted HuggingFace spaces
 
 HuggingFace spaces uses GradIO which is a front-end python wrapper, best known to quickly spin up web interfaces for ML inference visualization and hyperparameter tuning.
 
@@ -310,7 +308,7 @@ HuggingFace spaces uses GradIO which is a front-end python wrapper, best known t
  <img src="/_posts/image-24.png" alt="alt text" width="600" /> 
   
 
-# 6. Takeaways
+# 5. Takeaways
     
  <img src="/_posts/image-25.png" alt="alt text" width="700" /> 
 
