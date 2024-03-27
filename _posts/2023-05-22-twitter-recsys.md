@@ -1,7 +1,7 @@
 ---
 title: 'Insights into Twitter Recommendation System'
 date: 2023-05-22
-permalink: /posts/2024/03/twitter-recsys/
+permalink: /posts/2023/05/twitter-recsys/
 tags:
   - production
   - recommendation system
