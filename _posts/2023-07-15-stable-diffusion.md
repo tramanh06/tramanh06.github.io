@@ -17,7 +17,7 @@ AI image generation is one of the notable AI advances recently. The ability to c
 
 | <img src="/_posts/image-1.png" alt="alt text" width="200" />  | <img src="/_posts/image-2.png" alt="alt text" width="200" />  | <img src="/_posts/image-3.png" alt="alt text" width="200" />  |
 | ---- | ---- | ---- |
-| "a lovely cat running in the desert in Van Gogh style, trending art"</div>  | "Batman eating pizza in a diner"</div>  | "astronaut looking at a nebula, digital art, trending on artstation, hyperdetailed, matte painting"</div>   |
+| "a lovely cat running in the desert in Van Gogh style, trending art" | "Batman eating pizza in a diner" | "astronaut looking at a nebula, digital art, trending on artstation, hyperdetailed, matte painting"  |
 
 Before Stable Diffusion took the world by storm, there are other image generation techniques such as GAN and VAE. However, the image qualities of these methods are not very good.
 
@@ -309,6 +309,8 @@ HuggingFace spaces uses GradIO which is a front-end python wrapper, best known t
   
 
 # 5. Takeaways
+
+Here are the key things I want you to take away from this article.
     
  <img src="/_posts/image-25.png" alt="alt text" width="700" /> 
 
