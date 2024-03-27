@@ -14,9 +14,9 @@ tags:
 
 AI image generation is one of the notable AI advances recently. The ability to create striking visuals from text descriptions has a magical quality to it and points clearly to a shift in how humans create art. The release of [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) is a clear milestone in this development because it made a high-performance model available to the masses (performance in terms of image quality, as well as speed and relatively low resource/memory requirements).
 
-![Alt text](image.png)
+![Alt text](/_posts/image.png)
 
-| <img src="image-1.png" alt="alt text" width="200" />  | <img src="image-2.png" alt="alt text" width="200" />  | <img src="image-3.png" alt="alt text" width="200" />  |
+| <img src="/_posts/image-1.png" alt="alt text" width="200" />  | <img src="/_posts/image-2.png" alt="alt text" width="200" />  | <img src="/_posts/image-3.png" alt="alt text" width="200" />  |
 | ---- | ---- | ---- |
 | <div style="width:290px">"a lovely cat running in the desert in Van Gogh style, trending art"</div>  | <div style="width:290px">"Batman eating pizza in a diner"</div>  | <div style="width:290px">"astronaut looking at a nebula, digital art, trending on artstation, hyperdetailed, matte painting"</div>   |
 
@@ -26,7 +26,7 @@ Dall-E is the first image generation that can produce impressive results, howeve
 
 History: Stable Diffusion is a collaboration between the researchers at Ludwig Maximilian University of Munich, Germany and Runway ML. Stability AI only provides compute resources.
 
-![Alt text](image-4.png)
+![Alt text](/_posts/image-4.png)
 
 # 2. Overview of Stable Diffusion
     
@@ -41,14 +41,14 @@ At the same time, a Gaussian Noise image is initialized as a Latent image. A U-n
 
 The output latent image is fed into a VAE to decode the latent image. The output of VAE produces the desired generated image.
 
-![Alt text](image-5.png)
+![Alt text](/_posts/image-5.png)
 
 On the training side, in order to train the components, here are the steps.
 
     
 |  |  |
 | ---- | ---- |
-|  <img src="image-6.png" alt="alt text" width="500" /> | 1. **Train VAE**: train model to encode image semantics into the model<br>    <br>2. **Train CLIP model**: CLIP is a bimodal text-image self-supervised learning<br>    <br>3. **Forward Diffusion**: to inject noise to the image<br>    <br>4. **Train Denoising model**: learn to denoise the diffused image and text embedding<br>    <br>5. **Decoder**: Use the trained autodecoder in step 1 to decode the embedding into an image |
+|  <img src="/_posts/image-6.png" alt="alt text" width="500" /> | 1. **Train VAE**: train model to encode image semantics into the model<br>    <br>2. **Train CLIP model**: CLIP is a bimodal text-image self-supervised learning<br>    <br>3. **Forward Diffusion**: to inject noise to the image<br>    <br>4. **Train Denoising model**: learn to denoise the diffused image and text embedding<br>    <br>5. **Decoder**: Use the trained autodecoder in step 1 to decode the embedding into an image |
 
 
 # 3. Stable Diffusion components
@@ -62,7 +62,7 @@ _Contrastive learning_ maximizes the representation similarity between an image 
 
 The output of text encoder is the text embedding, and the output of the image encoder is the image embedding.
 
- <img src="image-7.png" alt="alt text" width="600" />  
+ <img src="/_posts/image-7.png" alt="alt text" width="600" />  
 
 Stable Diffusion uses the text embedding of CLIP to represent the text prompts.
 
@@ -74,7 +74,7 @@ Stable Diffusion uses the text embedding of CLIP to represent the text prompts.
 
 Variational Autoencoder is an unsupervised method to learn an embedding of any input data. The encoding process learns a latent representation of the input such that the decoding phase can reconstruct back the input from the latent vector.
 
-![Alt text](image-8.png)
+![Alt text](/_posts/image-8.png)
 
 2 regularization options used in the paper:
 
@@ -88,7 +88,7 @@ Variational Autoencoder is an unsupervised method to learn an embedding of any i
 
 The purpose of having the VAE in Stable Diffusion is to compress the image from pixel space to a latent space. The main contribution of Stable Diffusion is applying diffusion model on the latent space, rather than pixel space, resulting in less computation, faster training speed and faster inference time.
 
-|  <img src="image-9.png" alt="alt text" width="200" />  |
+|  <img src="/_posts/image-9.png" alt="alt text" width="200" />  |
 | ---- |
 | *Latent state contains a “sketch version” of the image* |
 
@@ -120,11 +120,11 @@ There is a forward diffusion process and a reverse diffusion process.
 - Reverse diffusion (Denoising): turn from noise back to normal image
     
 
- <img src="image-10.png" alt="alt text" width="500" />
+ <img src="/_posts/image-10.png" alt="alt text" width="500" />
 
 Math formulation of the forward diffusion process:
 
- <img src="image-11.png" alt="alt text" width="500" />
+ <img src="/_posts/image-11.png" alt="alt text" width="500" />
 
 (More math details for diffusion model can be found at https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 
@@ -146,14 +146,14 @@ The second part is **upsampling**, which is to construct an image from the featu
 
 There is a **skip connection** from a downsampling layer to an upsampling part, so as to condition the generative process with the information from the downsampling process.
 
-![Alt text](image-12.png)
+![Alt text](/_posts/image-12.png)
 
 **U-Net in Stable Diffusion**
     
 
 Stable Diffusion uses U-Net as a function approximator for the diffusion denoising model. If there are T steps during the forward diffusion process, U-Net is called T times during the reverse diffusion process. Each time, U-Net is augmented with a Cross Attention mechanism.
 
-![Alt text](image-13.png)
+![Alt text](/_posts/image-13.png)
 
 ### 3.4.2 Cross Attention in U-Net
 
@@ -163,11 +163,11 @@ To pre-process y from various modalities (such as text prompts) we introduce a d
 
 Cross attention: Tokens in one language pay attention to tokens in another. In this case, tokens in the noised image input pay attention to the text prompts.
 
- <img src="image-14.png" alt="alt text" width="600" /> 
+ <img src="/_posts/image-14.png" alt="alt text" width="600" /> 
 
 Below is the use of Cross Attention in the context of U-Net. ResBlock is conv layer in Unet, and SpatialTransformer is Cross Attention.
 
- <img src="image-15.png" alt="alt text" width="400" /> 
+ <img src="/_posts/image-15.png" alt="alt text" width="400" /> 
   
 Cross attention is a general purpose conditioning mechanism that enables multi-modal learning. It is helpful to train class-conditional, text-to-image and layout-to-image models.
 
@@ -182,7 +182,7 @@ Cross attention is a general purpose conditioning mechanism that enables multi-m
     
 - Scraped from web, filtered by CLIP: https://laion.ai/blog/laion-5b/
     
- <img src="image-16.png" alt="alt text" width="500" /> 
+ <img src="/_posts/image-16.png" alt="alt text" width="500" /> 
 
 Input image (3, 512, 512) tensor --> 𝑧 is (4, 64, 64) latent tensor
 
@@ -190,7 +190,7 @@ Input image (3, 512, 512) tensor --> 𝑧 is (4, 64, 64) latent tensor
 
 As Denoising U-net model can take in various kinds of conditioning, we can rely on that to inject different modalities to the model. Recalling the conditioning part of the architecture:
 
-![Alt text](image-17.png)
+![Alt text](/_posts/image-17.png)
 
 The obvious use case we have seen so far is text-to-image, which takes in a text prompts, and generates an image based on the text. There are other use cases in the image-to-image translation side: layout-to-image, image inpainting, super resolution.
 
@@ -201,7 +201,7 @@ Input: text
 
 Output: image as described in the text
 
-![Alt text](image-18.png)
+![Alt text](/_posts/image-18.png)
 
 - **Layout-to-image**
     
@@ -212,7 +212,7 @@ Input: bounding boxes of objects
 
 Output: Image that has objects matched with the bounding boxes
 
-![Alt text](image-19.png)
+![Alt text](/_posts/image-19.png)
 
 - **Image inpainting**
     
@@ -222,7 +222,7 @@ Inpainting is the task of filling masked regions of an image with new content ei
 
 | | |
 | ----- | ---- |
-|  <img src="image-20.png" alt="alt text" width="400" />  | Input: image with object <br> Output: image with object removed |
+|  <img src="/_posts/image-20.png" alt="alt text" width="400" />  | Input: image with object <br> Output: image with object removed |
 
 
 - **Super-resolution**
@@ -234,7 +234,7 @@ Input: image with low resolution
 
 Output: image with high resolution
 
-![Alt text](image-21.png)
+![Alt text](/_posts/image-21.png)
   
 
 ## 4.3 Other types of image generative models
@@ -243,7 +243,7 @@ Output: image with high resolution
 
 These are other image generative models:
 
-![Alt text](image-22.png)
+![Alt text](/_posts/image-22.png)
 
 - GAN: adversarial learning. Does not easily scale to modeling complex, multi-modal distributions. Suffered from mode collapse and training instabilities. Mode collapse also prevents the model to capture full data distribution
     
@@ -292,7 +292,7 @@ conda activate py310
 
 The shell output should include a line "Running on local URL: http://127.0.0.1:7860". Go to the localhost site for the web UI
 
-![Alt text](image-23.png)
+![Alt text](/_posts/image-23.png)
 
 Settings details: https://stable-diffusion-art.com/automatic1111/
 
@@ -306,12 +306,12 @@ HuggingFace spaces uses GradIO which is a front-end python wrapper, best known t
     
 - Sample of hosted Stable Diffusion model you can play around: https://huggingface.co/spaces/runwayml/stable-diffusion-v1-5
     
- <img src="image-24.png" alt="alt text" width="600" /> 
+ <img src="/_posts/image-24.png" alt="alt text" width="600" /> 
   
 
 # 6. Takeaways
     
- <img src="image-25.png" alt="alt text" width="700" /> 
+ <img src="/_posts/image-25.png" alt="alt text" width="700" /> 
 
 1. Stable Diffusion is a _system_ of models that can generate realistic images from a text or image input. Components that we need to:
     
