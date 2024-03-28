@@ -13,17 +13,19 @@ AI image generation is one of the notable AI advances recently. The ability to c
 
 {% include toc %} 
 
+Before Stable Diffusion took the world by storm, there are other image generation techniques such as GAN and VAE. However, the image qualities of these methods are not very good.
+
+Dall-E is the first image generation that can produce impressive results, however the model weights are not released publicly. OpenAI only released the APIs. Dall-E uses Diffusion model with a CLIP representation to generate the output image. Stable diffusion follows the same set up, but releases the model to the public use. Stable diffusion model is available on Huggingface.
+
+History: Stable Diffusion is a collaboration between the researchers at Ludwig Maximilian University of Munich, Germany and Runway ML. Stability AI only provides compute resources.
+
 ![Alt text](/_posts/image.png)
 
 | <img src="/_posts/image-1.png" alt="alt text" width="200" />  | <img src="/_posts/image-2.png" alt="alt text" width="200" />  | <img src="/_posts/image-3.png" alt="alt text" width="200" />  |
 | ---- | ---- | ---- |
 | "a lovely cat running in the desert in Van Gogh style, trending art" | "Batman eating pizza in a diner" | "astronaut looking at a nebula, digital art, trending on artstation, hyperdetailed, matte painting"  |
 
-Before Stable Diffusion took the world by storm, there are other image generation techniques such as GAN and VAE. However, the image qualities of these methods are not very good.
-
-Dall-E is the first image generation that can produce impressive results, however the model weights are not released publicly. OpenAI only released the APIs. Dall-E uses Diffusion model with a CLIP representation to generate the output image. Stable diffusion follows the same set up, but releases the model to the public use. Stable diffusion model is available on Huggingface.
-
-History: Stable Diffusion is a collaboration between the researchers at Ludwig Maximilian University of Munich, Germany and Runway ML. Stability AI only provides compute resources.
+Here is the paper that we will go through today:
 
 ![Alt text](/_posts/image-4.png)
 
