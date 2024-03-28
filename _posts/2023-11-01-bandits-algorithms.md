@@ -8,7 +8,7 @@ tags:
 ---
 
 In recommendations setting, one would occasionally come across Multi-armed bandits algorithm mentioned as a method to serve recommended content. 
-In this article, I would go over what bandit algorithms mean, what the popular algorithms are, as well as how multi-armed bandits are used
+In this article, I will go over what bandit algorithms mean, what the popular algorithms are, as well as how multi-armed bandits are used
 in recommendations.
 
 # Introduction to bandits algorithm
