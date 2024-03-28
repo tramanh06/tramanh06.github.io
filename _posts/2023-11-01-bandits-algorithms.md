@@ -257,6 +257,6 @@ Papers: FactorUCB, BeWARE
 
 # Reference
 
-Bandits for Recommender Systems https://eugeneyan.com/writing/bandits/
+[Bandits for Recommender Systems](https://eugeneyan.com/writing/bandits/)
 
-RecSys 2020 Tutorial: Introduction to Bandits in Recommender Systems https://www.youtube.com/watch?v=rDjCfQJ_sYY
+[RecSys 2020 Tutorial: Introduction to Bandits in Recommender Systems](https://www.youtube.com/watch?v=rDjCfQJ_sYY)
