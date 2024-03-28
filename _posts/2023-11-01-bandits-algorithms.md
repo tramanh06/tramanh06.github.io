@@ -146,7 +146,7 @@ Assumed for each action that the reward is binary, a Bernoulli distribution is u
 
 $R_a \sim Bernoulli(p_a)$ where $R_a \in \{0,1\}$
 
-When $R_a \sim Bernoulli$, due to conjugate property, if $Q_a = E|R_a|$, $Q_a$ follows Beta distribution
+When $R_a \sim Bernoulli$, due to conjugate property, if $Q_a=E(R_a)$, $Q_a$ follows Beta distribution
 
 $Q_a \sim Beta(\alpha, \beta)$
 
@@ -166,7 +166,7 @@ $Q_a \sim Beta(\alpha, \beta)$ where $\alpha$ is number of successes, and $\b
 
   
 
-4. ## LinUCB
+## 4. LinUCB
     
 
 LinUCB is a type of contextual bandit that uses linear regression to approximate reward.
@@ -215,7 +215,7 @@ Papers: Large-Scale Parallel Collaborative Filtering for the Netflix Prize
 <img src="/images/image-16.png" alt="alt text" width="500" />
 
   
-2. ## UCB
+## 2. UCB
     
 
 - Exploit: rating estimates using matrix factorization
@@ -230,10 +230,10 @@ Papers: FactorUCB, BeWARE
 
   
 
-3. ## Thomson Sampling
+## 3. Thomson Sampling
     
 
-- Model p(click | item) based on weighted sum of each product attribute
+- Model p(click \| item) based on weighted sum of each product attribute
     
 - Weight is sampled from posterior distribution after observing the data
 
@@ -241,7 +241,7 @@ Papers: FactorUCB, BeWARE
 
   
 
-4. ## Recommending lists
+## 4. Recommending lists
     
 
 <img src="/images/image-19.png" alt="alt text" width="600" />
