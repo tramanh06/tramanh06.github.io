@@ -19,7 +19,7 @@ Bandit refers to the slot machine in casino, where a gambler has to choose which
 
 Multi-armed bandit refers to the _multiple_ machines a gambler will need to make decision on which sequence of the slot machines to use.
 
-![Alt text](../images/image-3.png)
+![Alt text](/images/image-3.png)
 
 ## What is multi-armed bandit in ML?
 
@@ -74,7 +74,7 @@ Q is the value function at time t for action a. Therefore, we can calculate Q as
 As $\epsilon$ is the rate of exploration, if we are more confident of our best action, we can decay as there are more trials have been done
 
 <img src="/images/image-8.png" alt="alt text" width="500" />
-![Alt text](../images/image-8.png)
+![Alt text](/images/image-8.png)
 
 
 **Advantages and disadvantages of epsilon-greedy**
@@ -97,7 +97,7 @@ Disadvantages
 **UCB considers the uncertainty** of an arm and selects arms that have the highest potential. Uncertainty is modeled **via confidence bounds** while potential is represented by the upper confidence bound (thus the name of the algorithm)
 
 
-![Alt text](../images/image-9.png)
+![Alt text](/images/image-9.png)
 
 At each play, choose the action that has the **highest upper confidence bound**. Once we have its reward, we can update its confidence bound.
 
@@ -119,7 +119,7 @@ $UCB(a_t) = Q_t(a) + variance$
 
 $= \frac{\sum r_a}{N_{t-1}(a)} + c\sqrt{\frac{log(t)}{N_{t-1}(a)}}$
 
-![Alt text](../images/image-10.png)
+![Alt text](/images/image-10.png)
 
 In the image above, _Qₜ(a)_ is the estimated value of arm _a_ at time step _t_, _Nₜ(a)_ is the number of times arm _a_ was selected, and _c_ is a confidence parameter (which defaults to 1). The green arm has been chosen frequently and thus has narrower confidence bounds. In contrast, the red arm hasn’t been selected as often and thus has wider confidence bounds. When selecting an action, even though the green arm has a higher estimated value, the red arm has a higher UCB and is thus chosen. As the red arm is selected more, its confidence bounds will shrink. If the estimated value stays the same, its UCB will decrease to below the UCB of the green arm and the green arm will be chosen.
 
@@ -137,7 +137,7 @@ In the image above, _Qₜ(a)_ is the estimated value of arm _a_ at time step _t_
 - Calculate $Q_t(a)$ through a frequentist approach (frequentist = average historical rewards). Can we model $Q_t(a)$ by using a probability distribution? That brings us to the next algorithm.
     
 
-3. ## Thomson Sampling
+## 3. Thomson Sampling
     
 
 **Thomson Sampling models Q value by building a probability distribution** from historical rewards and then samples from the distribution when choosing actions.
@@ -152,7 +152,7 @@ $Q_a \sim Beta(\alpha, \beta)$
 
 The Beta distribution takes two parameters, α and β, and the mean value of the distribution is α/(α + β) which can be thought of as successes / (successes + failures)
 
-![Alt text](../images/3d53139f-6a17-41c0-9d18-15055480315d.gif)
+![Alt text](/images/3d53139f-6a17-41c0-9d18-15055480315d.gif)
 
 To select an action, we sample from each arm’s Beta distribution and choose the arm with the highest sampled values.
 
@@ -226,7 +226,7 @@ Papers: Large-Scale Parallel Collaborative Filtering for the Netflix Prize
 Papers: FactorUCB, BeWARE
 
 <img src="/images/image-17.png" alt="alt text" width="500" />
-![Alt text](../images/image-17.png)
+![Alt text](/images/image-17.png)
 
   
 
