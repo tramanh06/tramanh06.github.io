@@ -1,13 +1,13 @@
 ---
 title: 'Multi-armed Bandits Algorithms'
-date: 2023-11-01
-permalink: /posts/2023/11/bandits/
+date: 2023-03-05
+permalink: /posts/2023/03/bandits/
 tags:
   - recommendation systems
   - cold-start
 ---
 
-In recommendations setting, one would occasionally come across Multi-armed bandits algorithm mentioned as a method to serve recommended content. 
+In recommendations setting, one would occasionally come across multi-armed bandits algorithm mentioned as a method to serve recommended content. 
 In this article, I will go over what bandit algorithms mean, what the popular algorithms are, as well as how multi-armed bandits are used
 in recommendations.
 
